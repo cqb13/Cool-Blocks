@@ -27,6 +27,7 @@ body {
 }
 
 h1 {
+  text-align: center;
   margin: 0 auto;
   font-size: 50px;
 }
@@ -38,6 +39,8 @@ h1 {
   border-radius: 16px;
   background: none;
   transition: 500ms;
+  color: inherit;
+  font-size: 25px;
 }
 
 button:hover {
@@ -58,7 +61,6 @@ input[type="color"] {
   border-radius: 16px;
   padding: 0;
   overflow: hidden;
-  border: 1px solid #f5f7fa;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
   transition: 500ms;
@@ -79,6 +81,10 @@ input[type="color"]:hover {
   flex-direction: column;
   text-align: center;
   margin: 5px;
+}
+
+span {
+  font-size: 20px;
 }
 
 .block {
