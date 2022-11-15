@@ -5,5 +5,4 @@
   <p>Was bored during class, made a website.</p>
 
 [Look at cool blocks here!](https://cool-blocks.ml)
-
 </div>

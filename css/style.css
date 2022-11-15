@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  width: 100%;
   color: #444;
   overflow: hidden;
   display: flex;
@@ -15,8 +16,8 @@ body {
 .menu {
   display: flex;
   flex-direction: column;
-  width: fit-content;
   padding: 10px;
+  min-width: 20%;
   background: rgb(245, 247, 250, 0.3);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -94,4 +95,17 @@ span {
   backdrop-filter: blur(0.8px);
   -webkit-backdrop-filter: blur(0.8px);
   z-index: -1;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 5px;
+  margin-bottom: 0px;
+}
+
+svg.footerIcon {
+  height: 30px;
+  fill: #f5f7fa;
 }
