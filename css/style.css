@@ -66,9 +66,11 @@ input[type="color"] {
   margin: 0 auto;
   transition: 500ms;
 }
+
 input[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
 }
+
 input[type="color"]::-webkit-color-swatch {
   border: none;
 }
